@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Java_TestNG/TestNG/src/test/java/TestNGProject">
+        <parameter name="Para1" value="param1@gmail.com"/>
+        <parameter name="Para2" value="pass@123"/>
+        <classes>
+            <class name="TestCases.UserLogin">
+                <methods>
+                    <include name="TC01_LoginFailureTest"/>
+                    <include name="TC02_LoginSuccessTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="All Test Suite">-->
+<!--    <test verbose="2" preserve-order="true" name="E:/Java_TestNG/TestNG/src/test/java/TestNGProject">-->
+<!--        <parameter name="Para1" value="param1@gmail.com"/>-->
+<!--        <parameter name="Para2" value="pass@123"/>-->
+<!--        <classes>-->
+<!--            <class name="TestNGProject.TestCases.UserLogin">-->
+<!--                <methods>-->
+<!--                    <include name="TC01_LoginFailureTest"/>-->
+<!--                    <include name="TC02_LoginSuccessTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
