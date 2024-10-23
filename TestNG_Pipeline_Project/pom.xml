@@ -74,6 +74,7 @@
                         <suiteXmlFile>{suiteXmlFile}</suiteXmlFile>
                         <!-- <suiteXmlFile>sanity.xml</suiteXmlFile>
                         mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml
+                        mvn clean test -Dsurefire.suiteXmlFiles=sanity.xml
                         -->
                     </suiteXmlFiles>
                 </configuration>
