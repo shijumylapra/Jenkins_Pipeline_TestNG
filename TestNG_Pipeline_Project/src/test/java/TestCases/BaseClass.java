@@ -31,8 +31,8 @@ public class BaseClass {
 
     @BeforeMethod(alwaysRun = true)
     public void SetUpDriver() throws MalformedURLException {
-        local_driver_setup();
-        //remote_driver_setup();
+        //local_driver_setup();
+        remote_driver_setup();
     }
 
     @AfterMethod(alwaysRun = true)
